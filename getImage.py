@@ -3,15 +3,15 @@ import mysql.connector as sql
 
 
 
-def conn():
+def conn(host, user, passwd, database):
     config = {
-    "host" : "localhost",
+    "host" : host,
 
-    "user" : "root",
+    "user" : user,
 
-    "passwd" : "Lilcrazy91",
+    "passwd" : passwd,
 
-    "database" : "myanime"
+    "database" : database
                         }
     try:
         connect = sql.connect(**config)
