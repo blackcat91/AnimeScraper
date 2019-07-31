@@ -14,3 +14,5 @@ The command below will update your database with the latest episodes on the webs
 The command below will download the poster picture for every series on the website
 
 <code>python getImage.py </code>
+
+Also, make sure that the data in the connection function matches your sql database
