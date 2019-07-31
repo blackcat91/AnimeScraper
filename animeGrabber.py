@@ -140,7 +140,7 @@ class animeGrabber():
 
     
 
-        def connection(self, host="localhost", user="root", passwd="Lilcrazy91", database="myanime"):
+        def connection(self, host, user, passwd, database):
 
                 config = {
                         "host" : host,
