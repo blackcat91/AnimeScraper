@@ -15,4 +15,5 @@ The command below will download the poster picture for every series on the websi
 
 <code>python getImage.py </code>
 
-Also, make sure that the data in the connection function matches your sql database
+*Note getImage only works after you have ran animeGrabber, and only for the anime that are in your database.
+Also, make sure that the data in the connection function matches your sql database.
