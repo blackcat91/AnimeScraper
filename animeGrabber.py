@@ -1,7 +1,6 @@
 from requests_html import HTMLSession
 import mysql.connector as sql
 from datetime import datetime
-from multiprocessing import Process
 import argparse
 
 
